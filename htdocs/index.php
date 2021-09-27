@@ -3,6 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <title>Assignment 03-Humphrey, Adrian</title>
+<style>
+  .styleList{
+    color:rgb(0, 56, 145);
+    font-weight:bold;
+    font-size: 15pt;
+  }
+</style>
 </head>
 <body>
   <h1><a id = maintitle>Assignment 03-Humphrey, Adrian</a></h1>
@@ -67,7 +74,7 @@
     <a href = "#maintitle">Back to Top</a>
   </section>
   <section id = "favoriteMovies">
-    <dl>
+    <dl class = "styleList">
       <dt>Star Wars Episode VI: Return of the Jedi</dt>
       <dd>Luke Skywalker and the Rebel alliance must take down the</br>
          Empire, Darth Vader, The Emporer, and the new superweapons </br>
@@ -132,7 +139,7 @@
       <tr>
         <th colspan = "6">States</th>
       </tr>
-      <tr>
+      <tr style = "font-family:Helvetica, tahoma, Trebuchet">
         <th></th>
         <th>New Jersey</th>
         <th>California</th>
@@ -140,7 +147,7 @@
         <th>Ohio</th>
         <th>Colorado</th>
       </tr>
-      <tr>
+      <tr style = "font-family:Verdana, Helvetica, arial">
         <td>State Bird:</td>
         <td>American Goldfinch</td>
         <td>California quail</td>
@@ -148,7 +155,7 @@
         <td>Cardinal</td>
         <td>Lark bunting</td>
       </tr>
-      <tr>
+      <tr style = "font-family:sans-serif, Courier, Times">
         <td>State Flower:</td>
         <td>Common blue violet</td>
         <td>California poppy</td>
@@ -156,7 +163,7 @@
         <td>Carnation</td>
         <td>Colorado blue columbine</td>
       </tr>
-      <tr>
+      <tr style = "font-family:Courier, Trebuchet, sans-serif">
         <td>State Tree:</td>
         <td>Northern Red Oak</td>
         <td>California Redwood</td>
@@ -173,7 +180,7 @@
         <th colspan = "5">Meals</th>
       </tr>
       <tr>
-        <th colspn = "2"></th>
+        <th colspan = "2"></th>
         <th>Breakfast</th>
         <th>lunch</th>
         <th>Dinner</th>
