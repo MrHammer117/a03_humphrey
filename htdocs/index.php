@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Assignment 03-Humphrey, Adrian</title>
+<link rel= "stylesheet" href = "A03Styles.css">
 <style>
   .styleList{
     color:rgb(0, 56, 145);
@@ -177,9 +178,9 @@
   <section id = "foods">
     <table border = "1">
       <tr>
-        <th colspan = "5">Meals</th>
+        <th id = "single-Cell" colspan = "5" >Meals</th>
       </tr>
-      <tr>
+      <tr class = "rowTwo">
         <th colspan = "2"></th>
         <th>Breakfast</th>
         <th>lunch</th>
@@ -189,25 +190,25 @@
         <th rowspan = "4">Foods</th>
         <th>Bread</th>
         <td>Roll</td>
-        <td>Sliced Bread</td>
+        <td class = "columnColor">Sliced Bread</td>
         <td>Garlic Bread</td>
       </tr>
       <tr>
         <th>Main Course</th>
         <td>Eggs</td>
-        <td>Turkey Sandwich</td>
+        <td class = "columnColor">Turkey Sandwich</td>
         <td>Hamburgers</td>
       </tr>
       <tr>
         <th>Vegtable</th>
         <td>Tomato</td>
-        <td>Carrots</td>
+        <td class = "columnColor">Carrots</td>
         <td>Asparagus</td>
       </tr>
       <tr>
         <th>Dessert</th>
         <td>Toaster Strudel</td>
-        <td>Macaroons</td>
+        <td class = "columnColor">Macaroons</td>
         <td>Cake</td>
       </tr>
     </table>
