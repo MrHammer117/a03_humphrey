@@ -1,12 +1,12 @@
 #single-Cell{
   color:red;
-  background-color:gray;
+  background-color:rgb(134, 126, 126);
 }
 .rowTwo{
-  background-color:blue;
-  color:red;
+  background-color:#1900a8;
+  color:hsl(0, 100%, 50%);
 }
 .columnColor{
-  color:black;
-  background-color:white;
+  color:hsla(268, 100%, 50%, 1);
+  background-color:rgba(255, 255, 0, 0.3);
 }
